@@ -9,6 +9,7 @@ type Props = StyledProps & {
 export function Header({ title, ...rest }) {
   const { colors } = useTheme()
   const navigation = useNavigation()
+
   return (
     <HStack
       w="full"
